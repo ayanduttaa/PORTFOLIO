@@ -1,4 +1,4 @@
-
+/* CSS FOR MAIN SCREEN DIVIDATION STARTS */
 @media (min-width: 830px) {
 html, body {
     margin: 0;
@@ -26,20 +26,25 @@ html, body {
 
 #myimg {
     filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
+    transition: filter 3s ease-in-out;
   }
   
   #myimg:hover {
+    transition: filter 0.5s ease-in-out;
     filter: grayscale(5%);
   }
+
+  .tepng{
+    padding: 10%;
+}
   
 }
-/*///////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 
 
-@media (max-width: 829px) {
+
+@media (max-width: 830px) {
 html, body {
     margin: 0;
     padding: 0;
@@ -63,7 +68,7 @@ html, body {
     bottom: 0; /* Attach the image to the bottom */
     right: 0; /* Attach the image to the right */
     max-width: 100%; /* Limit the maximum width of the image */
-    max-height: 70%; /* Limit the maximum height of the image */
+    max-height: 65%; /* Limit the maximum height of the image */
 }
 
 #myimg {
@@ -74,15 +79,21 @@ html, body {
   #myimg:hover {
     filter: grayscale(5%);
   }
+
   
 }
+/* CSS FOR MAIN SCREEN DIVIDATION ENDS */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-
+/* CSS FOR SCROLLBAR STARTS */
 
         /* Define the styles for the scrollbar */
         ::-webkit-scrollbar {
-            width: 5px; /* Width of the scrollbar */
+            width: 0px; /* Width of the scrollbar */
+            position: absolute;
+            z-index: +1000;
             
         }
         
@@ -102,5 +113,13 @@ html, body {
             background-color: #555; /* Color of the scrollbar handle on hover */
         }
 
+/* CSS FOR SCROLLBAR ENDS */
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.custom-link{
+    font-weight: light;
+    font-size: larger;
+}
 
