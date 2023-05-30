@@ -15,13 +15,14 @@ html, body {
 .box {
     width: 50%;
     height: 100%;
+    position: relative;
 }
 .box img {
     position: absolute; /* Position the image absolutely */
     bottom: 0; /* Attach the image to the bottom */
     right: 0; /* Attach the image to the right */
-    max-width: 100%; /* Limit the maximum width of the image */
-    max-height: 80%; /* Limit the maximum height of the image */
+    max-width: auto; /* Limit the maximum width of the image */
+    max-height: auto; /* Limit the maximum height of the image */
 }
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
@@ -50,14 +51,16 @@ html, body {
 .box {
     width: 100%;
     height: 50vh;
+    position: relative;
 }
 
 .box img {
     position: absolute; /* Position the image absolutely */
     bottom: 0; /* Attach the image to the bottom */
     right: 0; /* Attach the image to the right */
-    max-width: 100%; /* Limit the maximum width of the image */
-    max-height: 70%; /* Limit the maximum height of the image */
+    max-width: auto; /* Limit the maximum width of the image */
+    max-height: auto; /* Limit the maximum height of the image */
+
 }
 }
 
