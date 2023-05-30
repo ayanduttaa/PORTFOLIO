@@ -23,6 +23,16 @@ html, body {
     max-width: 100%; /* Limit the maximum width of the image */
     max-height: 80%; /* Limit the maximum height of the image */
 }
+
+#myimg {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  #myimg:hover {
+    filter: grayscale(5%);
+  }
+  
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -59,6 +69,16 @@ html, body {
     max-width: 100%; /* Limit the maximum width of the image */
     max-height: 70%; /* Limit the maximum height of the image */
 }
+
+#myimg {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  #myimg:hover {
+    filter: grayscale(5%);
+  }
+  
 }
 
 
